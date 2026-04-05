@@ -87,8 +87,6 @@ for i in range(NUM_OF_EPISODES):
                     frame.save(os.path.join("games" f"game_{i}", f"frame_{j}.png"))
                     controllers[action].save(os.path.join("games" f"game_{i}", f"controller_{j}.png"))
         
-        # if i % 5000 == 0 and i > 0:
-        #     agent.save_model(os.path.join("models", f"model_{i}_iter.pt"))
 
 env.close()
 
