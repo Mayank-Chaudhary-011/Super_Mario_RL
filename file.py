@@ -30,7 +30,7 @@ def make_env(env_name, display):
 
 
 def train(agent, env, model_path):
-    CKPT_SAVE_INTERVAL = 500
+    CKPT_SAVE_INTERVAL = 5000
     NUM_OF_EPISODES = 50_000
 
     for i in range(NUM_OF_EPISODES):
